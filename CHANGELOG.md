@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2025-04-22
+
+### Added
+- Word document (.docx) output support
+- Ability to use Word templates for consistent formatting
+- Improved HTML-to-Word conversion with formatting preservation
+- Command-line option to specify a Word template file
+
+### Changed
+- Updated requirements.txt to include python-docx dependency
+
 ## [1.0.0] - 2025-04-22
 
 ### Added

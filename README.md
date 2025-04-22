@@ -1,20 +1,22 @@
-# Markdown to HTML Converter
+# Markdown to HTML/Word Converter
 
-A Python utility that converts multiple markdown files into a single HTML document with AI-enhanced paragraph formatting.
+A Python utility that converts multiple markdown files into a single HTML document or Word document (.docx) with AI-enhanced paragraph formatting.
 
 ## Features
 
-- Convert multiple markdown files to a single HTML document
+- Convert multiple markdown files to a single HTML document or Word document (.docx)
 - Use OpenAI to paraphrase bullet points into flowing paragraphs
 - Control the order of markdown files using a JSON configuration
-- Apply custom styling with CSS
-- Easy deployment to Netlify
+- Apply custom styling with CSS for HTML output
+- Use Word templates for consistent document formatting
+- Easy deployment to Netlify for HTML output
 
 ## Requirements
 
 - Python 3.6+
 - OpenAI API key
 - Markdown library
+- python-docx library (for Word document output)
 
 ## Installation
 
@@ -29,17 +31,32 @@ pip install -r requirements.txt
 
 ## Usage
 
+### HTML Output
+
 ```bash
 # Basic usage (processes all .md files in the markdown directory)
 python md_to_html.py
 
 # Use a specific order file
-python md_to_html.py order.json
+python md_to_html.py document_order.json
+```
+
+### Word Document Output
+
+```bash
+# Basic usage (processes all .md files in the markdown directory)
+python md_to_docx.py
+
+# Use a specific order file
+python md_to_docx.py document_order.json
+
+# Use a specific Word template
+python md_to_docx.py document_order.json template.docx
 ```
 
 ## Configuration
 
-Create an `order.json` file to specify the order of markdown files:
+Create a `document_order.json` file to specify the order of markdown files:
 
 ```json
 [
