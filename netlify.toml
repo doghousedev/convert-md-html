@@ -1,0 +1,11 @@
+[build]
+  publish = "output"
+  command = "python md_to_html.py order.json"
+
+[build.environment]
+  PYTHON_VERSION = "3.9"
+
+[[redirects]]
+  from = "/*"
+  to = "/merged_output.html"
+  status = 200
