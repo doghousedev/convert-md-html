@@ -9,6 +9,7 @@ A Python utility that converts multiple markdown files into a single HTML docume
 - Control the order of markdown files using a JSON configuration
 - Apply custom styling with CSS for HTML output
 - Use Word templates for consistent document formatting
+- Dynamic output filenames based on input filename (e.g., `input.md` → `input_Output.html/docx`)
 - Easy deployment to Netlify for HTML output
 
 ## Requirements

@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - Ability to use Word templates for consistent formatting
 - Improved HTML-to-Word conversion with formatting preservation
 - Command-line option to specify a Word template file
+- Dynamic output filenames based on input filename (e.g., input.md → input_Output.html/docx)
 
 ### Changed
 - Updated requirements.txt to include python-docx dependency
