@@ -37,3 +37,10 @@ Thumbs.db
 
 # Local configuration
 .env
+
+# BFG and secrets
+bfg.jar
+secrets.txt
+
+# Generated output
+output/
