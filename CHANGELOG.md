@@ -9,10 +9,11 @@ All notable changes to this project will be documented in this file.
 - Command-line option (--log) to enable AI response logging
 
 ### Improved
-- Enhanced table handling in HTML output with proper formatting
+- Enhanced table handling in both HTML and DOCX output with proper formatting
 - Better detection and rendering of pipe-separated tables
 - Proper handling of table headers and separator rows
-- Bootstrap styling for tables with dark headers and striped rows
+- Bootstrap styling for HTML tables with dark headers and striped rows
+- Consistent table formatting in DOCX with proper headers and cell formatting
 
 ## [1.1.0] - 2025-04-22
 

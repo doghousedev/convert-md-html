@@ -299,26 +299,65 @@ def convert_md_to_docx(input_file, output_file=None, document_order_file=None, t
     for p in paragraphs:
         text = p.get_text()
         # Check if this looks like a pipe-separated table (at least 3 pipe characters)
-        if text.count('|') >= 3 and '|' in text[:10]:
-            print(f"Converting text to table: {text[:50]}...")
+        if text.count('|') >= 3:
+            print(f"Converting pipe-separated text to table: {text[:50]}...")
             
             # Split into rows
             rows = text.split('\n')
             if len(rows) == 1:
-                rows = [text]  # Single line table
-                
+                # Try to find adjacent paragraphs that might be part of the same table
+                table_rows = [text]
+                next_sibling = p.next_sibling
+                while next_sibling:
+                    if isinstance(next_sibling, str) and next_sibling.strip() == '':
+                        next_sibling = next_sibling.next_sibling
+                        continue
+                    if hasattr(next_sibling, 'name') and next_sibling.name == 'p':
+                        sibling_text = next_sibling.get_text()
+                        if '|' in sibling_text:
+                            table_rows.append(sibling_text)
+                            temp = next_sibling
+                            next_sibling = next_sibling.next_sibling
+                            # Mark this paragraph for removal since we're including it in the table
+                            temp['data-table-row'] = 'true'
+                        else:
+                            break
+                    else:
+                        break
+                rows = table_rows
+            
+            # Check if we have a separator row (row with dashes and pipes)
+            has_separator = False
+            header_row_index = -1
+            for i, row in enumerate(rows):
+                if row.strip().replace('|', '').replace('-', '').replace(' ', '') == '':
+                    has_separator = True
+                    header_row_index = i - 1  # The row before the separator is the header
+                    break
+            
+            # Filter out separator rows
+            valid_rows = [row for row in rows if not row.strip().replace('|', '').replace('-', '').replace(' ', '') == '']
+            
+            if not valid_rows:
+                continue  # Skip if no valid rows after filtering
+            
             # Count the maximum number of cells in any row
             max_cols = 0
-            for row in rows:
+            for row in valid_rows:
                 if row.strip():
-                    cells = [cell.strip() for cell in row.split('|') if cell.strip()]
+                    # Split the row by pipe character and remove empty cells at the beginning/end
+                    cells = row.split('|')
+                    if cells and not cells[0].strip():
+                        cells.pop(0)
+                    if cells and not cells[-1].strip():
+                        cells.pop()
                     max_cols = max(max_cols, len(cells))
             
             if max_cols == 0:
                 continue  # Skip if no valid cells found
                 
             # Create a new Word table
-            word_table = doc.add_table(rows=len(rows), cols=max_cols)
+            word_table = doc.add_table(rows=len(valid_rows), cols=max_cols)
             try:
                 word_table.style = 'Table Grid'
             except KeyError:
@@ -338,30 +377,41 @@ def convert_md_to_docx(input_file, output_file=None, document_order_file=None, t
                             pass  # If we can't set borders, continue anyway
             
             # Process each row
-            for i, row_text in enumerate(rows):
+            for i, row_text in enumerate(valid_rows):
                 if not row_text.strip():
                     continue  # Skip empty rows
                     
-                # Split the row by pipe character
-                cells = [cell.strip() for cell in row_text.split('|') if cell.strip()]
+                # Split the row by pipe character and remove empty cells at the beginning/end
+                cells = row_text.split('|')
+                if cells and not cells[0].strip():
+                    cells.pop(0)
+                if cells and not cells[-1].strip():
+                    cells.pop()
+                
+                # Clean up cell text (remove extra whitespace)
+                cells = [cell.strip() for cell in cells]
                 
                 # Add cells to the table
                 for j, cell_text in enumerate(cells):
                     if j < max_cols:  # Ensure we don't exceed the table dimensions
                         cell = word_table.cell(i, j)
+                        cell.text = cell_text
                         
-                        # Clean up the cell text (remove ** markers)
-                        clean_text = cell_text.replace('**', '')
-                        cell.text = clean_text
+                        # Determine if this is a header row
+                        is_header = (has_separator and i == 0) or (i == 0 and not has_separator) or '**' in cell_text
                         
-                        # Make header row bold
-                        if i == 0 or '**' in cell_text:
+                        # Make header cells bold
+                        if is_header:
                             try:
                                 for paragraph in cell.paragraphs:
                                     for run in paragraph.runs:
                                         run.bold = True
                             except AttributeError:
                                 pass  # If we can't make it bold, continue anyway
+            
+            # Remove paragraphs that were marked as table rows
+            for row_p in soup.find_all('p', attrs={'data-table-row': 'true'}):
+                row_p.decompose()
     
     # Process code blocks
     for pre in soup.find_all('pre'):
