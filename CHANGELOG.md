@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file.
 - Bootstrap styling for HTML tables with dark headers and striped rows
 - Consistent table formatting in DOCX with proper headers and cell formatting
 
+### Removed
+- Unnecessary test files and scripts
+- Redundant markdown test files
+
 ## [1.1.0] - 2025-04-22
 
 ### Added
