@@ -1,0 +1,1150 @@
+=== AI Enhancement Log for Bomark_BSO_av-proposal using openai ===
+Started: 2025-04-23 00:14:47
+Input file: markdown/Bomark_BSO_av-proposal.md
+
+--- Response at 00:14:47 (took 1.36s) ---
+Original: Prepared for:
+Bomark Associates
+Baltimore Symphony Orchestra
+1212 Cathedral Street
+Baltimore, MD 21201
+
+Enhanced: Prepared for:
+Bomark Associates
+C/O Baltimore Symphony Orchestra
+1212 Cathedral Street
+Baltimore, MD 21201
+
+Greetings, Esteemed Recipient, 
+
+Please find the attached documents addressed to Bomark Associates at the distinguished Baltimore Symphony Orchestra, located at 1212 Cathedral Street, Baltimore, MD 21201. Thank you for your attention to this matter.
+
+================================================================================
+--- Response at 00:14:48 (took 0.85s) ---
+Original: Account Manager: Ted Koblick
+Proposal Writer: Tyler Baylin
+Sales Engineer: Ronald Baylin
+
+Enhanced: Here are the key contacts for this project:
+Account Manager: Ted Koblick
+Proposal Writer: Tyler Baylin
+Sales Engineer: Ronald Baylin
+
+Feel free to reach out to any of them for assistance or further information.
+
+================================================================================
+--- Response at 00:14:49 (took 0.80s) ---
+Original: Net-AV
+698C Corporate Center Ct
+Westminster, MD 21157
+Phone: 410.374.8680
+Email: sales@net-av.com
+
+Enhanced: Net-AV
+698C Corporate Center Court
+Westminster, Maryland 21157
+Telephone: 410.374.8680
+Email: sales@net-av.com
+
+We appreciate your attention to these contact details and look forward to assisting you.
+
+================================================================================
+--- Response at 00:14:50 (took 1.12s) ---
+Original: Net-AV is pleased to submit this proposal for the Bomark BSO Phase 2 project. This proposal outlines the audiovisual systems for the Musician's Lounge and Green Room spaces within the Baltimore Symphony Orchestra facility, as detailed in the architectural drawings provided. Our comprehensive solution includes equipment, installation, programming, and testing designed to meet the specific needs of each space.
+
+Enhanced: Net-AV is delighted to present this proposal for the Bomark BSO Phase 2 project. The proposal delineates the audiovisual systems planned for the Musician's Lounge and Green Room areas within the Baltimore Symphony Orchestra facility, in accordance with the furnished architectural drawings. Our holistic approach encompasses equipment provision, meticulous installation, expert programming, and rigorous testing tailored to cater to the unique requirements of each space.
+
+================================================================================
+--- Response at 00:14:51 (took 1.06s) ---
+Original: The Musician's Lounge will be equipped with a versatile audiovisual system designed for casual viewing, information sharing, and relaxation. The system includes multiple displays, wireless content sharing capabilities, and distributed audio to create a comfortable environment for BSO musicians. All installation will be performed in accordance with the architectural drawings and installation details provided.
+
+Enhanced: The Musician's Lounge will feature a sophisticated audiovisual system tailored for leisurely entertainment, collaborative sharing, and unwinding. This system boasts a range of displays, wireless content-sharing functionalities, and integrated audio to establish a cozy setting for BSO musicians. Every installation will adhere meticulously to the provided architectural drawings and installation specifications.
+
+================================================================================
+--- Response at 00:14:52 (took 0.54s) ---
+Original: The Musician's Lounge will feature two professional-grade displays:
+
+Enhanced: The Musician's Lounge will showcase two top-tier professional displays:
+
+================================================================================
+--- Response at 00:14:52 (took 0.85s) ---
+Original: One (1) LG 86" UH5J-H large format display for primary viewing mounted on the main wall using Chief mounting hardware with appropriate back box as shown in detail #5 on drawing sheet
+
+Enhanced: One (1) LG 86" UH5J-H large format display will be installed on the main wall for primary viewing. It will be mounted using Chief mounting hardware, along with the appropriate back box as depicted in detail #5 on the drawing sheet.
+
+================================================================================
+--- Response at 00:14:53 (took 0.81s) ---
+Original: One (1) LG 55" UM340E0UZ medium format display for secondary viewing located in the dining area with appropriate mounting hardware as detailed in drawing #3
+
+Enhanced: One (1) LG 55" UM340E0UZ medium format display is designated for secondary viewing in the dining area. It will be installed with the appropriate mounting hardware, as outlined in drawing #3.
+
+================================================================================
+--- Response at 00:14:54 (took 1.01s) ---
+Original: Both displays will be professionally mounted using Chief mounting solutions with appropriate back boxes for clean installation. The 86" display will utilize a TS525TU mount with a TAS1 1-inch spacer kit and TA500 back box, while the 55" display will be installed with an appropriately sized mount.
+
+Enhanced: Both displays will be expertly installed using Chief mounting solutions, complete with suitable back boxes for a sleek and tidy setup. Specifically, the 86" display will be secured with a TS525TU mount accompanied by a TAS1 1-inch spacer kit and TA500 back box, while the 55" display will have a mount of suitable size for its installation.
+
+================================================================================
+--- Response at 00:14:55 (took 0.71s) ---
+Original: One (1) Contemporary Research 232-ATSC 4K HDTV tuner providing cable television content
+
+Enhanced: One (1) Contemporary Research 232-ATSC 4K HDTV tuner delivering premium cable television programming for enhanced viewing experience.
+
+================================================================================
+--- Response at 00:14:56 (took 0.70s) ---
+Original: One (1) Crestron AM-3100-WF wireless content sharing receiver allowing users to easily present content from personal devices
+
+Enhanced: One (1) Crestron AM-3100-WF wireless content sharing receiver enables users to effortlessly showcase content from their personal devices.
+
+================================================================================
+--- Response at 00:14:56 (took 0.55s) ---
+Original: HDMI connectivity for local source connection
+
+Enhanced: High-Definition Multimedia Interface (HDMI) is essential for seamless local source connectivity.
+
+================================================================================
+--- Response at 00:14:57 (took 0.51s) ---
+Original: The audio system will consist of:
+
+Enhanced: The audio system will comprise of:
+
+================================================================================
+--- Response at 00:14:57 (took 0.66s) ---
+Original: Three (3) pairs of Atlas GD87W ceiling speakers (six speakers total) strategically located for even coverage throughout the space as shown in the reflected ceiling plan
+
+Enhanced: Three pairs of Atlas GD87W ceiling speakers, totaling six speakers, have been strategically positioned based on the reflected ceiling plan to ensure comprehensive sound coverage across the entire space.
+
+================================================================================
+--- Response at 00:14:58 (took 0.89s) ---
+Original: Two (2) Atlas AT35-PA volume controls for independent audio level adjustment in different zones
+
+Enhanced: Two Atlas AT35-PA volume controls provide the convenience of individual audio level adjustment in separate zones.
+
+================================================================================
+--- Response at 00:14:59 (took 0.51s) ---
+Original: Audio distribution tied to video sources with ability to select between sources
+
+Enhanced: Audio distribution linked to video sources with the capability to choose among different sources.
+
+================================================================================
+--- Response at 00:14:59 (took 0.71s) ---
+Original: All cabling will be installed in accordance with the specifications in the technical details and general notes provided in the architectural drawings. This includes:
+
+Enhanced: All cabling will be meticulously installed in strict adherence to the specifications outlined in the technical details and general notes as per the architectural drawings. This meticulous approach encompasses:
+
+================================================================================
+--- Response at 00:15:00 (took 0.64s) ---
+Original: Plenum-rated cables in accessible ceiling spaces
+
+Enhanced: Plenum-rated cables are designed for use in accessible ceiling spaces.
+
+================================================================================
+--- Response at 00:15:01 (took 0.57s) ---
+Original: Appropriate cable support systems per specifications
+
+Enhanced: Proper implementation of cable support systems in accordance with specifications.
+
+================================================================================
+--- Response at 00:15:01 (took 0.64s) ---
+Original: Cable labeling as per industry standards
+
+Enhanced: "Ensuring cable labeling compliance with industry standards"
+
+================================================================================
+--- Response at 00:15:02 (took 0.47s) ---
+Original: Conduit and accessories as detailed in the telecommunications details
+
+Enhanced: Conduits and related accessories outlined in the telecommunications specifications.
+
+================================================================================
+--- Response at 00:15:03 (took 1.20s) ---
+Original: The Green Room will be equipped with a comprehensive audiovisual system designed for presentations, video conferencing, and entertainment as detailed in the drawings. This system provides greater functionality than the Musician's Lounge, featuring integrated control, video conferencing capabilities, and professional audio, all installed according to the detailed architectural drawings.
+
+Enhanced: The Green Room is set to be outfitted with a sophisticated audiovisual system meticulously tailored for presentations, video conferencing, and entertainment, all outlined in the provided schematics. This robust system offers enhanced capabilities compared to the Musician's Lounge, showcasing integrated control, advanced video conferencing functionalities, and top-notch professional audio components, meticulously implemented in alignment with the precise architectural drawings.
+
+================================================================================
+--- Response at 00:15:04 (took 0.70s) ---
+Original: The Green Room will feature multiple displays:
+
+Enhanced: The Green Room will showcase a variety of displays, offering a diverse and engaging visual experience.
+
+================================================================================
+--- Response at 00:15:04 (took 0.79s) ---
+Original: One (1) LG 86" UH5J-H large format display as the primary viewing screen, mounted according to detail #3 in the drawings
+
+Enhanced: One (1) LG 86" UH5J-H large format display shall serve as the primary viewing screen, to be mounted as per specification #3 delineated in the drawings.
+
+================================================================================
+--- Response at 00:15:05 (took 0.64s) ---
+Original: Two (2) LG 32" SM5J-B small format displays for auxiliary viewing and confidence monitors
+
+Enhanced: Two (2) LG 32" SM5J-B small format displays have been selected for auxiliary viewing and confidence monitoring purposes.
+
+================================================================================
+--- Response at 00:15:10 (took 4.95s) ---
+Original: Installation using specified mounting hardware to ensure safety and aesthetic integrity
+
+Enhanced: Installation utilizing designated mounting hardware to guarantee both safety and the preservation of aesthetic integrity.
+
+================================================================================
+--- Response at 00:15:11 (took 0.52s) ---
+Original: The Green Room video system includes:
+
+Enhanced: The Green Room video system boasts a comprehensive array of features, such as:
+
+================================================================================
+--- Response at 00:15:11 (took 0.65s) ---
+Original: One (1) Contemporary Research 232-ATSC 4K HDTV tuner
+
+Enhanced: One (1) Contemporary Research 232-ATSC 4K HDTV tuner is available for purchase.
+
+================================================================================
+--- Response at 00:15:12 (took 0.74s) ---
+Original: QSC NV-series AV over IP infrastructure (NV-32-H processor and NV-21-HU decoders)
+
+Enhanced: The QSC NV-Series delivers cutting-edge AV over IP infrastructure, comprising the NV-32-H processor and NV-21-HU decoders.
+
+================================================================================
+--- Response at 00:15:13 (took 0.65s) ---
+Original: Two (2) Crestron AM-TX3-100 wireless transmitters
+
+Enhanced: Two (2) wireless transmitters by Crestron, specifically the AM-TX3-100 model.
+
+================================================================================
+--- Response at 00:15:13 (took 0.67s) ---
+Original: One (1) Crestron DM-NAX-BTIO-1G Bluetooth wallplate receiver for wireless audio streaming
+
+Enhanced: One (1) Crestron DM-NAX-BTIO-1G Bluetooth wallplate receiver designed for seamless wireless audio streaming capabilities.
+
+================================================================================
+--- Response at 00:15:14 (took 0.57s) ---
+Original: HDMI connectivity for local source connection
+
+Enhanced: High-Definition Multimedia Interface (HDMI) facilitates local source connectivity.
+
+================================================================================
+--- Response at 00:15:14 (took 0.61s) ---
+Original: Owner-provided Yodeck digital signage player integration
+
+Enhanced: Integration of Yodeck digital signage player provided by the owner
+
+================================================================================
+--- Response at 00:15:15 (took 0.41s) ---
+Original: The professional audio system consists of:
+
+Enhanced: The comprehensive professional audio system includes:
+
+================================================================================
+--- Response at 00:15:16 (took 0.73s) ---
+Original: Four (4) JBL Control 26CT ceiling speakers for high-quality audio reinforcement
+
+Enhanced: Four (4) JBL Control 26CT ceiling speakers are available to provide exceptional audio reinforcement, guaranteeing high-quality sound performance in your space.
+
+================================================================================
+--- Response at 00:15:16 (took 0.56s) ---
+Original: Required JBL MTC-TCD dogear kits for ceiling installation
+
+Enhanced: Ensure proper ceiling installation by using the necessary JBL MTC-TCD dogear kits.
+
+================================================================================
+--- Response at 00:15:17 (took 0.78s) ---
+Original: One (1) Extron MPA 601 audio amplifier (60W, 70V) for speaker distribution
+
+Enhanced: One (1) Extron MPA 601 audio amplifier capable of delivering 60 watts at 70 volts for efficient speaker distribution.
+
+================================================================================
+--- Response at 00:15:18 (took 0.87s) ---
+Original: One (1) Shure MXA920AL-R beamforming ceiling microphone for video conferencing with appropriate pendant mounting
+
+Enhanced: One (1) Shure MXA920AL-R beamforming ceiling microphone designed for high-quality video conferencing, complete with suitable pendant mounting for optimal installation.
+
+================================================================================
+--- Response at 00:15:18 (took 0.45s) ---
+Original: The Green Room features an integrated control system:
+
+Enhanced: The Green Room boasts a sophisticated integrated control system:
+
+================================================================================
+--- Response at 00:15:19 (took 1.12s) ---
+Original: One (1) QSC TSC-70-G3 7" touch panel for intuitive system control
+
+Enhanced: One (1) QSC TSC-70-G3 7" touch panel is included for seamless and user-friendly system control.
+
+================================================================================
+--- Response at 00:15:20 (took 0.69s) ---
+Original: Required Q-SYS software licenses (Script, Stream, and UCI)
+
+Enhanced: Necessary Q-SYS software licenses include Script, Stream, and UCI. These licenses are essential for optimal system functionality and performance.
+
+================================================================================
+--- Response at 00:15:21 (took 0.51s) ---
+Original: QSC Q-SYS ecosystem providing comprehensive system management
+
+Enhanced: The QSC Q-SYS ecosystem offers extensive system management capabilities for seamless integration and control.
+
+================================================================================
+--- Response at 00:15:21 (took 0.61s) ---
+Original: One (1) QSC QIO-GP8x8 GPIO I/O Control Device
+
+Enhanced: One (1) QSC QIO-GP8x8 General Purpose Input/Output Control Device
+
+================================================================================
+--- Response at 00:15:22 (took 0.57s) ---
+Original: One (1) QSC QIO-S4 GPIO RS232 Controller
+
+Enhanced: One (1) QSC QIO-S4 GPIO RS232 Controller is available for purchase.
+
+================================================================================
+--- Response at 00:15:22 (took 0.49s) ---
+Original: Full programming of control interface as detailed in the system logic diagrams
+
+Enhanced: Complete development of the control interface as specified in the system logic diagrams.
+
+================================================================================
+--- Response at 00:15:23 (took 0.69s) ---
+Original: One (1) Logitech Rally USB PTZ camera
+
+Enhanced: One (1) Logitech Rally USB PTZ camera is available for purchase.
+
+================================================================================
+--- Response at 00:15:24 (took 0.60s) ---
+Original: One (1) Vaddio 999-1005-032 USB extender RX
+
+Enhanced: One (1) Vaddio 999-1005-032 USB Extender Receiver.
+
+================================================================================
+--- Response at 00:15:24 (took 0.63s) ---
+Original: One (1) Vaddio 999-1005-032 USB extender TX
+
+Enhanced: One (1) Vaddio 999-1005-032 USB extender Transmitter
+
+================================================================================
+--- Response at 00:15:25 (took 0.59s) ---
+Original: One (1) Vaddio 999-2225-118 in-wall camera enclosure
+
+Enhanced: One (1) Vaddio 999-2225-118 in-wall camera housing
+
+================================================================================
+--- Response at 00:15:26 (took 0.87s) ---
+Original: Integration with audio and control systems as per logical diagram specifications
+
+Enhanced: Integration with audio and control systems will be carried out in accordance with the specifications outlined in the logical diagram.
+
+================================================================================
+--- Response at 00:15:27 (took 1.19s) ---
+Original: The system is supported by robust network infrastructure:
+
+Enhanced: The system operates efficiently thanks to a resilient network infrastructure supporting it.
+
+================================================================================
+--- Response at 00:15:28 (took 0.69s) ---
+Original: One (1) QSC NS26-1440++ PoE network switch for AV over IP distribution
+
+Enhanced: One (1) QSC NS26-1440++ Power over Ethernet (PoE) network switch designed for Audio-Visual (AV) over Internet Protocol (IP) distribution.
+
+================================================================================
+--- Response at 00:15:28 (took 0.45s) ---
+Original: Structured cabling with Category 6 connectivity
+
+Enhanced: Enhanced cabling infrastructure featuring Category 6 connectivity.
+
+================================================================================
+--- Response at 00:15:28 (took 0.53s) ---
+Original: Middle Atlantic equipment rack with power distribution
+
+Enhanced: Middle Atlantic equipment rack featuring integrated power distribution.
+
+================================================================================
+--- Response at 00:15:29 (took 0.61s) ---
+Original: The installation process will follow these steps for both rooms:
+
+Enhanced: The installation procedure will proceed through the following steps for both rooms:
+
+================================================================================
+--- Response at 00:15:30 (took 0.53s) ---
+Original: Site Preparation: Confirm all power and network requirements have been met according to drawings
+
+Enhanced: Site Preparation: Ensure that all power and network requirements align with the specifications outlined in the drawings.
+
+================================================================================
+--- Response at 00:15:30 (took 0.57s) ---
+Original: Infrastructure Installation: Install all mounting hardware, brackets, and back boxes
+
+Enhanced: Infrastructure Installation: Complete the installation of all necessary mounting hardware, brackets, and back boxes.
+
+================================================================================
+--- Response at 00:15:31 (took 0.58s) ---
+Original: Cable Installation: Run all required cabling according to specifications and cable schedules
+
+Enhanced: Professional Enhancement: Cable Installation: Expertly lay all necessary cabling in accordance with designated specifications and cable schedules.
+
+================================================================================
+--- Response at 00:15:31 (took 0.59s) ---
+Original: Equipment Installation: Mount displays, speakers, and other equipment
+
+Enhanced: Equipment Installation: Expertly install displays, speakers, and other essential equipment with precision and care.
+
+================================================================================
+--- Response at 00:15:32 (took 0.54s) ---
+Original: Equipment Rack Assembly: Build, wire, and test equipment rack
+
+Enhanced: Assembly of Equipment Rack: Construct, install wiring, and conduct testing on equipment rack
+
+================================================================================
+--- Response at 00:15:32 (took 0.55s) ---
+Original: System Connection: Connect all components according to system diagrams
+
+Enhanced: System Connection: Please ensure all components are connected precisely as illustrated in the system diagrams provided.
+
+================================================================================
+--- Response at 00:15:33 (took 0.50s) ---
+Original: System Programming: Program control system and configure all components
+
+Enhanced: System Programming: Implement program control systems and configure all system components efficiently.
+
+================================================================================
+--- Response at 00:15:33 (took 0.51s) ---
+Original: Testing and Commissioning: Thoroughly test all system functions
+
+Enhanced: Testing and Commissioning: Conduct comprehensive testing of all system functionalities.
+
+================================================================================
+--- Response at 00:15:34 (took 0.67s) ---
+Original: Training: Provide user training on system operation
+
+Enhanced: Training: Deliver comprehensive user training sessions on system operation. Engage participants through interactive demonstrations and hands-on practice to ensure mastery of system functionality.
+
+================================================================================
+--- Response at 00:15:35 (took 0.81s) ---
+Original: Documentation: Provide as-built drawings and system manuals
+
+Enhanced: Documentation: Please ensure the provision of comprehensive as-built drawings and system manuals for reference.
+
+================================================================================
+--- Response at 00:15:36 (took 0.59s) ---
+Original: Net-AV will provide dedicated project management services throughout the project lifecycle. This includes:
+
+Enhanced: Net-AV will offer specialized project management services that span the entirety of the project lifecycle. This comprehensive support encompasses:
+
+================================================================================
+--- Response at 00:15:36 (took 0.51s) ---
+Original: Project Planning: Development of detailed project schedule and resource allocation
+
+Enhanced: Project Planning: Crafting a comprehensive project schedule and strategically allocating resources.
+
+================================================================================
+--- Response at 00:15:37 (took 0.62s) ---
+Original: Communication: Regular client updates and coordination with other trades
+
+Enhanced: Enhanced Version: Communication Strategy: Ensuring consistent client updates and seamless coordination with complementary trades.
+
+================================================================================
+--- Response at 00:15:37 (took 0.50s) ---
+Original: Issue Management: Prompt resolution of any issues that arise
+
+Enhanced: Issue Management: Timely Resolution of Any Challenges Encountered
+
+================================================================================
+--- Response at 00:15:38 (took 0.52s) ---
+Original: Quality Control: Rigorous testing and validation of all systems
+
+Enhanced: Stringent quality control measures are implemented through thorough testing and validation of all systems.
+
+================================================================================
+--- Response at 00:15:38 (took 0.50s) ---
+Original: Client Acceptance: Formal client acceptance process
+
+Enhanced: Client Acceptance Protocol: Establishing a Comprehensive Formal Client Acceptance Process
+
+================================================================================
+--- Response at 00:15:42 (took 3.88s) ---
+Original: Video Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| LG | 86UH5J-H | Large Format Display | 1 | $5,463.75 | $5,463.75 |
+| LG | 55UM340E0UZ | Medium Format Display | 1 | $742.50 | $742.50 |
+| CRESTRON | AM-3100-WF | Wireless Video Receiver | 1 | $1,406.25 | $1,406.25 |
+| CONTEMP. RES. | 232-ATSC 4K HDTV TUNER | ATSC Tuner | 1 | $1,006.88 | $1,006.88 |
+| Subtotal | | | | | $8,619.38 |
+
+Enhanced: **Professional and Engaging Text:**
+
+**Video Equipment Purchase Summary**
+| **Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price** |
+|-------------|-------|-------------|----------|------------|----------------|
+| LG | 86UH5J-H | Large Format Display | 1 | $5,463.75 | $5,463.75 |
+| LG | 55UM340E0UZ | Medium Format Display | 1 | $742.50 | $742.50 |
+| CRESTRON | AM-3100-WF | Wireless Video Receiver | 1 | $1,406.25 | $1,406.25 |
+| CON
+
+================================================================================
+--- Response at 00:15:45 (took 3.34s) ---
+Original: Audio Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| ATLAS | GD87W | Ceiling Speakers (sold as pairs) | 3 | $264.38 | $793.14 |
+| ATLAS | AT35-PA | Volume Control | 2 | $140.63 | $281.26 |
+| Subtotal | | | | | $1,074.40 |
+
+Enhanced: **Purchase Order for Audio Equipment**  
+| **Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price** |  
+|-------------|-------|-------------|----------|------------|----------------|  
+| ATLAS | GD87W | Ceiling Speakers (sold as pairs) | 3 | $264.38 | $793.14 |  
+| ATLAS | AT35-PA | Volume Control | 2 | $140.63 | $281.26 |  
+| **Subtotal** | | | | | **$1,074.40** |
+
+================================================================================
+--- Response at 00:15:49 (took 3.40s) ---
+Original: Miscellaneous
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| AV CONTRACTOR | CUSTOM | Interconnecting Cables, Connectors, Terminations, and Miscellaneous Hardware | 1 | $1,187.50 | $1,187.50 |
+| CHIEF | TAS1 | 1-Inch Spacer Kit | 1 | $84.38 | $84.38 |
+| CHIEF | TA500 | Display Back Box | 1 | $279.18 | $279.18 |
+| CHIEF | TA500HWKIT1 | TA500 In-Wall Enclosure Install HW Kit | 1 | $35.41 | $35.41 |
+| CHIEF | TA500HWKIT2 | TA500 TS Mount Brackets & HW Kit | 1 | $96.69 | $96.69 |
+| CHIEF | TA500HWKIT3 | TA500 Final Install HW & Trim Kit | 1 | $70.14 | $70.14 |
+| CHIEF | TS525TU | Display Mount | 1 | $518.18 | $518.18 |
+| CHIEF | CSPBTA | In-Wall Storage Plate | 1 | $95.63 | $95.63 |
+| RP VISUAL | RPWM-32MAX-BOX | Display Back Box | 1 | $219.38 | $219.38 |
+| Subtotal | | | | | $2,586.49 |
+
+Enhanced: **Professional and Engaging Presentation of Miscellaneous Items**
+
+| **Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price** |
+|-----------------|----------|--------------|-----------|--------------|------------------|
+| AV CONTRACTOR | CUSTOM | Interconnecting Cables, Connectors, Terminations, and Miscellaneous Hardware | 1 | $1,187.50 | $1,187.50 |
+| CHIEF | TAS1 | 1-Inch Spacer Kit | 1 | $84.38 | $84.38 |
+| CHIEF | TA500 | Display Back Box | 1 | $279.18 | $279.18 |
+| CHIEF | TA
+
+================================================================================
+--- Response at 00:15:52 (took 3.31s) ---
+Original: Video Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| CONTEMP. RESEARCH | 232-ATSC 4K HDTV TUNER | ATSC Tuner | 1 | $1,006.88 | $1,006.88 |
+| CRESTRON | AM-3100-WF | Wireless Video Receiver | 1 | $1,406.25 | $1,406.25 |
+| CRESTRON | AM-TX3-100 | Wireless Video Transmitter | 2 | $1,040.63 | $2,081.26 |
+| LG | 86UH5J-H | Large Format Display | 1 | $5,463.75 | $5,463.75 |
+| LG | 32SM5J-B | Small Format Display | 2 | $705.00 | $1,410.00 |
+| LOGITECH | RALLY (960-001226) | Camera | 1 | $1,595.85 | $1,595.85 |
+| QSC | NV-32-H | AVC Processor | 1 | $3,297.05 | $3,297.05 |
+| QSC | NV-21-HU | AVoIP Decoder | 3 | $1,955.79 | $5,867.37 |
+| VADDIO | 999-1005-032 | USB 3.0 Extender Kit (TX/RX Pair) | 1 | $1,740.38 | $1,740.38 |
+| YODECK | OFE | OFE Digital Signage Player | 1 | $0.00 | $0.00 |
+| Subtotal | | | | | $23,868.79 |
+
+Enhanced: **Professional and Engaging Video Equipment Inventory:**
+
+**Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price**
+---|---|---|---|---|---
+CONTEMP. RESEARCH | 232-ATSC 4K HDTV TUNER | ATSC Tuner | 1 | $1,006.88 | $1,006.88
+CRESTRON | AM-3100-WF | Wireless Video Receiver | 1 | $1,406.25 | $1,406.25
+CRESTRON | AM-TX3-100 | Wireless Video Transmitter | 2 | $1,040.63 | $2,081
+
+================================================================================
+--- Response at 00:15:55 (took 2.45s) ---
+Original: Audio Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| CRESTRON | DM-NAX-BTIO-1G | Bluetooth Wallplate | 1 | $618.75 | $618.75 |
+| EXTRON | MPA 601 (60-1449-01) | Amplifier | 1 | $950.63 | $950.63 |
+| JBL | CONTROL 26CT | Ceiling Speaker (sold as pairs) | 4 | $219.38 | $877.52 |
+| SHURE | MXA920AL-R | Microphone Array, Round, White | 1 | $5,568.75 | $5,568.75 |
+| Subtotal | | | | | $8,015.65 |
+
+Enhanced: Audio Equipment Summary:
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| CRESTRON | DM-NAX-BTIO-1G | Bluetooth Wallplate | 1 | $618.75 | $618.75 |
+| EXTRON | MPA 601 (60-1449-01) | Amplifier | 1 | $950.63 | $950.63 |
+| JBL | CONTROL 26CT | Ceiling Speaker (sold as pairs) | 4 | $219.38 | $877.52 |
+| SHURE | MXA920AL-R | Microphone Array, Round, White | 1 | $
+
+================================================================================
+--- Response at 00:15:56 (took 1.68s) ---
+Original: Control Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| Q-SYS | SLQSE-8N-P | Script License | 1 | $293.36 | $293.36 |
+| Q-SYS | SLOCMS-NV32-P | Stream License | 1 | $350.00 | $350.00 |
+| Q-SYS | SLOUD-8N-P | UCI License | 1 | $143.55 | $143.55 |
+| QSC | TSC-70-G3 | AV Control Touch Panel | 1 | $1,665.04 | $1,665.04 |
+| QSC | QIO-GP8x8 | GPIO I/O Control Device | 1 | $378.61 | $378.61 |
+| QSC | QIO-S4 | GPIO RS232 Controller | 1 | $379.40 | $379.40 |
+| QSC | NS26-1440++ | PoE Network Switch | 1 | $4,910.38 | $4,910.38 |
+| Subtotal | | | | | $8,120.34 |
+
+Enhanced: **Equipment Inventory Summary**
+
+| **Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price** |
+|-------------|-------|-------------|----------|------------|----------------|
+| Q-SYS | SLQSE-8N-P | Script License | 1 | $293.36 | $293.36 |
+| Q-SYS | SLOCMS-NV32-P | Stream License | 1 | $350.00 | $350.00 |
+| Q-SYS | SLOUD-8N-P | UCI License | 1 | $143.55 | $143.55 |
+| QSC | TSC-70-G3 | AV Control Touch Panel | 1
+
+================================================================================
+--- Response at 00:15:59 (took 2.37s) ---
+Original: Miscellaneous Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| AV CONTRACTOR | CUSTOM | Interconnecting Cables, Connectors, Terminations, and Miscellaneous Hardware | 1 | $2,193.75 | $2,193.75 |
+| CHIEF | RMF2 | Display Mount | 1 | $365.63 | $365.63 |
+| JBL | MTC-TCD DOGEAR KIT | Ceiling Speaker Thickness Extension Kit | 4 | $50.63 | $202.52 |
+| MIDDLE ATLANTIC | CFR-10-18 | Equipment Rack | 1 | $950.63 | $950.63 |
+| MIDDLE ATLANTIC | PD-920R-SP | Power Distribution Unit | 1 | $309.38 | $309.38 |
+| PEERLESS | AEC018024 | Microphone Mounting Column | 1 | $140.63 | $140.63 |
+| RP VISUAL | RPWM-32MAX-BOX | Display Back Box | 1 | $219.38 | $219.38 |
+| SHURE | A900-R-PM | Pendant Mount | 1 | $106.88 | $106.88 |
+| VADDIO | 999-2225-118 | In-Wall Camera Enclosure, Black, AVC Shall Paint | 1 | $274.91 | $274.91 |
+| Subtotal | | | | | $4,763.71 |
+
+Enhanced: **Miscellaneous Equipment Inventory**
+| **Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price** |
+|-------------|-------|-------------|----------|------------|----------------|
+| AV CONTRACTOR | CUSTOM | Interconnecting Cables, Connectors, Terminations, and Miscellaneous Hardware | 1 | $2,193.75 | $2,193.75 |
+| CHIEF | RMF2 | Display Mount | 1 | $365.63 | $365.63 |
+| JBL | MTC-TCD DOGEAR KIT | Ceiling Speaker Thickness Extension Kit | 4 | $50.63 | $202.52 |
+| MIDDLE ATLANTIC |
+
+================================================================================
+--- Response at 00:16:00 (took 1.72s) ---
+Original: Audio Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| CRESTRON | DM-NAX-BTIO-1G | Bluetooth Wallplate | 1 | $495.00 | $495.00 |
+| EXTRON | MPA 601 (60-1449-01) | Amplifier | 1 | $760.50 | $760.50 |
+| JBL | CONTROL 26CT | Ceiling Speaker (sold as pairs) | 4 | $175.50 | $702.00 |
+| SHURE | MXA920AL-R | Microphone Array, Round, White | 1 | $4,455.00 | $4,455.00 |
+| Subtotal | | | | | $6,412.50 |
+
+Enhanced: Audio Equipment Inventory:
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| CRESTRON | DM-NAX-BTIO-1G | Bluetooth Wallplate | 1 | $495.00 | $495.00 |
+| EXTRON | MPA 601 (60-1449-01) | Amplifier | 1 | $760.50 | $760.50 |
+| JBL | CONTROL 26CT | Ceiling Speaker (sold as pairs) | 4 | $175.50 | $702.00 |
+| SHURE | MXA920AL-R | Microphone Array, Round, White | 1 | $
+
+================================================================================
+--- Response at 00:16:02 (took 2.06s) ---
+Original: Control Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| Q-SYS | SLQSE-8N-P | Script License | 1 | $675.00 | $675.00 |
+| Q-SYS | SLOCMS-NV32-P | Stream License | 1 | $765.00 | $765.00 |
+| Q-SYS | SLOUD-8N-P | UCI License | 1 | $495.00 | $495.00 |
+| QSC | TSC-70-G3 | AV Control Touch Panel | 1 | $1,305.00 | $1,305.00 |
+| QSC | QIO-GP8x8 | GPIO I/O Control Device | 1 | $895.50 | $895.50 |
+| QSC | QIO-S4 | GPIO RS232 Controller | 1 | $445.50 | $445.50 |
+| QSC | NS26-1440++ | PoE Network Switch | 1 | $1,935.00 | $1,935.00 |
+| Subtotal | | | | | $6,516.00 |
+
+Enhanced: Control Equipment Overview:
+
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| Q-SYS | SLQSE-8N-P | Script License | 1 | $675.00 | $675.00 |
+| Q-SYS | SLOCMS-NV32-P | Stream License | 1 | $765.00 | $765.00 |
+| Q-SYS | SLOUD-8N-P | UCI License | 1 | $495.00 | $495.00 |
+| QSC | TSC-70-G3 | AV Control Touch Panel | 1 | $1,305.00 | $1,305.
+
+================================================================================
+--- Response at 00:16:04 (took 1.79s) ---
+Original: Miscellaneous Equipment
+| Manufacturer | Model | Description | Quantity | Unit Price | Extended Price |
+|-------------|-------|-------------|----------|------------|----------------|
+| AV CONTRACTOR | CUSTOM | Interconnecting Cables, Connectors, Terminations, and Miscellaneous Hardware | 1 | $1,755.00 | $1,755.00 |
+| CHIEF | RMF2 | Display Mount | 1 | $292.50 | $292.50 |
+| JBL | MTC-TCD DOGEAR KIT | Ceiling Speaker Thickness Extension Kit | 4 | $40.50 | $162.00 |
+| MIDDLE ATLANTIC | CFR-10-18 | Equipment Rack | 1 | $760.50 | $760.50 |
+| MIDDLE ATLANTIC | PD-920R-SP | Power Distribution Unit | 1 | $247.50 | $247.50 |
+| PEERLESS | AEC018024 | Microphone Mounting Column | 1 | $112.50 | $112.50 |
+| RP VISUAL | RPWM-32MAX-BOX | Display Back Box | 1 | $175.50 | $175.50 |
+| SHURE | A900-R-PM | Pendant Mount | 1 | $85.50 | $85.50 |
+| VADDIO | 999-2225-118 | In-Wall Camera Enclosure, Black, AVC Shall Paint | 1 | $219.93 | $219.93 |
+| Subtotal | | | | | $3,810.93 |
+
+Enhanced: **Miscellaneous Equipment Summary**  
+| **Manufacturer** | **Model** | **Description** | **Quantity** | **Unit Price** | **Extended Price** |
+|------------------|------------|-----------------|--------------|--------------|------------------|
+| AV CONTRACTOR | CUSTOM | Interconnecting Cables, Connectors, Terminations, and Miscellaneous Hardware | 1 | $1,755.00 | $1,755.00 |
+| CHIEF | RMF2 | Display Mount | 1 | $292.50 | $292.50 |
+| JBL | MTC-TCD DOGEAR KIT | Ceiling Speaker Thickness Extension Kit | 4 | $40.50 | $162.00 |
+| MIDDLE
+
+================================================================================
+--- Response at 00:16:05 (took 0.59s) ---
+Original: Net-AV provides a comprehensive warranty on all installed systems:
+
+Enhanced: Net-AV offers a robust warranty for all of our installed systems to ensure your peace of mind.
+
+================================================================================
+--- Response at 00:16:06 (took 0.91s) ---
+Original: 
+Manufacturer's Warranty: All equipment is covered by the manufacturer's warranty, typically 1-3 years depending on the product.
+
+
+Enhanced: Manufacturer's Warranty: Each piece of equipment comes with a comprehensive manufacturer's warranty, which usually spans 1-3 years, varying based on the product. Rest assured that your purchase is backed by the manufacturer's commitment to quality and reliability.
+
+================================================================================
+--- Response at 00:16:07 (took 0.78s) ---
+Original: Manufacturer's Warranty: All equipment is covered by the manufacturer's warranty, typically 1-3 years depending on the product.
+
+Enhanced: Manufacturer's Warranty: Rest assured that all equipment is backed by the manufacturer's warranty, which generally ranges from 1 to 3 years, varying based on the specific product in question.
+
+================================================================================
+--- Response at 00:16:07 (took 0.59s) ---
+Original: 
+Workmanship Warranty: Net-AV warranties all workmanship for a period of one (1) year from the date of system acceptance.
+
+
+Enhanced: Workmanship Warranty: Net-AV guarantees all workmanship for a duration of one (1) year starting from the system acceptance date.
+
+================================================================================
+--- Response at 00:16:08 (took 0.61s) ---
+Original: Workmanship Warranty: Net-AV warranties all workmanship for a period of one (1) year from the date of system acceptance.
+
+Enhanced: Workmanship Warranty: Net-AV guarantees all workmanship for a duration of one (1) year beginning from the date of system acceptance.
+
+================================================================================
+--- Response at 00:16:08 (took 0.61s) ---
+Original: 
+Support Options: Extended warranty and service plans are available:
+
+
+Enhanced: Support Options: Enhance your peace of mind with our range of extended warranty and service plans.
+
+================================================================================
+--- Response at 00:16:09 (took 0.93s) ---
+Original: Support Options: Extended warranty and service plans are available:
+
+Enhanced: Available Support Options: Choose from our range of extended warranty and service plans to enhance your product coverage.
+
+================================================================================
+--- Response at 00:16:10 (took 0.97s) ---
+Original: Silver Service Plan: 9am-5pm telephone support, same-day response, next business day on-site service - 8% of equipment cost annually
+
+Enhanced: Platinum Service Package includes comprehensive support from 9am to 5pm via telephone, with prompt same-day response and on-site service scheduled for the next business day. This all-encompassing plan is available at a modest annual fee of 8% of the equipment's cost.
+
+================================================================================
+--- Response at 00:16:11 (took 0.94s) ---
+Original: Gold Service Plan: 9am-5pm telephone support, 4-hour response, within 2 business days on-site service - 12% of equipment cost annually
+
+Enhanced: Premium Service Package: Enjoy comprehensive support with our Gold Service Plan, including 9am-5pm telephone assistance, 4-hour response time, and on-site service within 2 business days. This exceptional service, priced at 12% of the equipment cost annually, ensures your peace of mind and uninterrupted operations.
+
+================================================================================
+--- Response at 00:16:12 (took 0.80s) ---
+Original: Platinum Service Plan: 24x7x365 telephone support, 2-hour response, next business day on-site service - 15% of equipment cost annually
+
+Enhanced: Platinum Service Plan offers round-the-clock telephone support every day of the year, with a guaranteed 2-hour response time and next business day on-site service. This comprehensive plan is available for an annual fee of 15% of the equipment cost.
+
+================================================================================
+--- Response at 00:16:13 (took 0.79s) ---
+Original: Net-AV provides AV systems integration under the following standard inclusions and exclusions. In the event that there is a conflict between Net-AV's standard inclusions/exclusions and those set forth in drawing documents, the drawing documents shall take precedence:
+
+Enhanced: Net-AV offers AV systems integration services according to specified standard inclusions and exclusions. Should discrepancies arise between Net-AV's standard provisions and those detailed in the project drawings, the information outlined in the drawing documents will supersede.
+
+================================================================================
+--- Response at 00:16:14 (took 1.03s) ---
+Original: 
+Access for Net-AV integration and engineering staff to the room during normal business hours for installation. Exact scheduling to be coordinated with Bomark staff prior to installation. At Net-AV request, off hours work will be granted to support the installation needs.
+
+
+Enhanced: Access will be provided to Net-AV integration and engineering staff during regular business hours for room installation. Scheduling details will be arranged in advance with Bomark staff. Upon request from Net-AV, off-hours work will be accommodated to facilitate installation requirements.
+
+================================================================================
+--- Response at 00:16:15 (took 0.77s) ---
+Original: Access for Net-AV integration and engineering staff to the room during normal business hours for installation. Exact scheduling to be coordinated with Bomark staff prior to installation. At Net-AV request, off hours work will be granted to support the installation needs.
+
+Enhanced: Access to the room during regular business hours is provided for Net-AV integration and engineering staff for installation purposes. Prior coordination with Bomark staff is required for exact scheduling. Net-AV may request off-hours work for additional support during installation as needed.
+
+================================================================================
+--- Response at 00:16:16 (took 0.99s) ---
+Original: 
+Access to building facility engineer and or other staff, as needed, during design phase and installation for coordination of cable paths and access locations.
+
+
+Enhanced: Access to the building facility engineer and/or other staff will be available as needed during the design phase and installation to ensure smooth coordination of cable paths and access locations.
+
+================================================================================
+--- Response at 00:16:16 (took 0.81s) ---
+Original: Access to building facility engineer and or other staff, as needed, during design phase and installation for coordination of cable paths and access locations.
+
+Enhanced: Access will be granted to the building facility engineer and any other necessary staff as required during the design phase and installation process. This will facilitate coordination for laying out cable paths and determining access points.
+
+================================================================================
+--- Response at 00:16:17 (took 0.64s) ---
+Original: 
+Bomark will provide a working network connection for the video conferencing system.
+
+
+Enhanced: Bomark will ensure a reliable network connection is established to support the video conferencing system.
+
+================================================================================
+--- Response at 00:16:18 (took 0.89s) ---
+Original: Bomark will provide a working network connection for the video conferencing system.
+
+Enhanced: Bomark will ensure a reliable network connection is established to support the seamless operation of the video conferencing system.
+
+================================================================================
+--- Response at 00:16:19 (took 0.90s) ---
+Original: 
+Bomark will provide Net-AV any IP addresses or other relevant network settings and/or information to allow set up of the audiovisual system components. Net-AV will work with the Bomark IT staff to acquire this information.
+
+
+Enhanced: Bomark will furnish Net-AV with all necessary IP addresses and pertinent network settings to facilitate the configuration of the audiovisual system components. Collaboration between Net-AV and Bomark's IT team will ensure a seamless acquisition of this critical information.
+
+================================================================================
+--- Response at 00:16:20 (took 0.92s) ---
+Original: Bomark will provide Net-AV any IP addresses or other relevant network settings and/or information to allow set up of the audiovisual system components. Net-AV will work with the Bomark IT staff to acquire this information.
+
+Enhanced: Bomark will promptly furnish Net-AV with all necessary IP addresses and pertinent network settings for seamless configuration of the audiovisual system components. Net-AV will collaborate closely with Bomark's IT personnel to ensure swift acquisition of this crucial information.
+
+================================================================================
+--- Response at 00:16:20 (took 0.50s) ---
+Original: 
+It will be the Bomark's responsibility to manage the network and network attached devices.
+
+
+Enhanced: Bomark will oversee the management of the network and networked devices.
+
+================================================================================
+--- Response at 00:16:21 (took 0.57s) ---
+Original: It will be the Bomark's responsibility to manage the network and network attached devices.
+
+Enhanced: Bomark will be tasked with overseeing the management of the network and all associated devices.
+
+================================================================================
+--- Response at 00:16:21 (took 0.64s) ---
+Original: 
+Bomark will supply any laptop, tablets or computer(s) for the system.
+
+
+Enhanced: Bomark is committed to providing a comprehensive selection of laptops, tablets, and computers for the system.
+
+================================================================================
+--- Response at 00:16:22 (took 0.59s) ---
+Original: Bomark will supply any laptop, tablets or computer(s) for the system.
+
+Enhanced: Bomark has the capability to provide laptops, tablets, or computers as required for the system.
+
+================================================================================
+--- Response at 00:16:23 (took 0.61s) ---
+Original: 
+Bomark will provide for any electrical work required within the room and is responsible for any relevant permits for such electrical work.
+
+
+Enhanced: Bomark will handle all necessary electrical tasks within the room and will also ensure all pertinent permits are obtained for the electrical work.
+
+================================================================================
+--- Response at 00:16:23 (took 0.62s) ---
+Original: Bomark will provide for any electrical work required within the room and is responsible for any relevant permits for such electrical work.
+
+Enhanced: Bomark will be responsible for all electrical work necessary in the room and will handle any associated permits required for the electrical installations.
+
+================================================================================
+--- Response at 00:16:24 (took 0.97s) ---
+Original: 
+Bomark will specifically supply any AC power connections required at the equipment racks or credenzas. Some work may require electrical service (not supplied under this proposal) if standard AC outlet not available in proximity to the racks or credenzas.
+
+
+Enhanced: Bomark is committed to providing tailored AC power connections as per the equipment racks or credenzas specifications. Please note that in certain cases, additional electrical services may be necessary (outside the scope of this proposal) if a standard AC outlet is not readily accessible near the racks or credenzas. We appreciate your attention to this requirement.
+
+================================================================================
+--- Response at 00:16:25 (took 1.22s) ---
+Original: Bomark will specifically supply any AC power connections required at the equipment racks or credenzas. Some work may require electrical service (not supplied under this proposal) if standard AC outlet not available in proximity to the racks or credenzas.
+
+Enhanced: Bomark is committed to providing dedicated AC power connections as needed for equipment racks or credenzas. Should the specified work necessitate electrical service (which is not included in this proposal), it will be required in cases where a standard AC outlet is not conveniently located near the racks or credenzas.
+
+================================================================================
+--- Response at 00:16:26 (took 0.60s) ---
+Original: 
+Bomark will supply G/OFE equipment to Net-AV for integration in proper working order, and in a timely manner, so as not to impact the delivery schedule.
+
+
+Enhanced: Bomark is committed to providing Net-AV with G/OFE equipment for seamless integration, ensuring timely delivery without any disruptions to the schedule.
+
+================================================================================
+--- Response at 00:16:27 (took 0.71s) ---
+Original: Bomark will supply G/OFE equipment to Net-AV for integration in proper working order, and in a timely manner, so as not to impact the delivery schedule.
+
+Enhanced: Bomark commits to providing G/OFE equipment to Net-AV for seamless integration, ensuring timely delivery to uphold the project schedule.
+
+================================================================================
+--- Response at 00:16:28 (took 0.98s) ---
+Original: 
+Where applicable, the owner's architect will provide Net-AV's engineering department with all required architectural floor, reflected ceiling, building elevation, and section plans in Auto Cad format at no charge to Net-AV.
+
+
+Enhanced: Whenever possible, the owner's architect will generously furnish Net-AV's engineering department with essential architectural floor plans, reflected ceiling designs, building elevations, and section plans in AutoCAD format, without incurring any costs for Net-AV.
+
+================================================================================
+--- Response at 00:16:29 (took 0.90s) ---
+Original: Where applicable, the owner's architect will provide Net-AV's engineering department with all required architectural floor, reflected ceiling, building elevation, and section plans in Auto Cad format at no charge to Net-AV.
+
+Enhanced: When necessary, the owner's architect will furnish Net-AV's engineering department with essential architectural floor, reflected ceiling, building elevation, and section plans in AutoCAD format at zero cost to Net-AV.
+
+================================================================================
+--- Response at 00:16:29 (took 0.65s) ---
+Original: 
+Bomark will supply the appropriate software keys for multi-point calls and/or external bridging for multi-point calls.
+
+
+Enhanced: Bomark will provide the necessary software keys to facilitate multi-point calls and external bridging services for enhanced communication connectivity.
+
+================================================================================
+--- Response at 00:16:30 (took 0.63s) ---
+Original: Bomark will supply the appropriate software keys for multi-point calls and/or external bridging for multi-point calls.
+
+Enhanced: Bomark will provide the necessary software keys to facilitate multi-point calls and external bridging for multi-point calls.
+
+================================================================================
+--- Response at 00:16:30 (took 0.59s) ---
+Original: 
+Bomark will supply required IP addresses and accessibility if the system is to part of the network.
+
+
+Enhanced: Bomark will provide the necessary IP addresses and access permissions for the system to become integrated within the network.
+
+================================================================================
+--- Response at 00:16:31 (took 0.65s) ---
+Original: Bomark will supply required IP addresses and accessibility if the system is to part of the network.
+
+Enhanced: Bomark will provide the necessary IP addresses and access permissions for the system to integrate seamlessly into the network.
+
+================================================================================
+--- Response at 00:16:32 (took 0.99s) ---
+Original: 
+Software licensing – Where applicable Net-AV will provide access to source code written specifically for the operation of the control systems. This will be provided under a licensing agreement limiting the duplication and distribution of software written by Net-AV for the specific use within the systems installed by Net-AV.
+
+
+Enhanced: Software Licensing: Upon necessity, Net-AV will grant access to the source code tailored for the functionality of the control systems. Such access will be governed by a licensing agreement that restricts the reproduction and dissemination of software developed by Net-AV solely for the intended use within the systems deployed by Net-AV.
+
+================================================================================
+--- Response at 00:16:33 (took 0.96s) ---
+Original: Software licensing – Where applicable Net-AV will provide access to source code written specifically for the operation of the control systems. This will be provided under a licensing agreement limiting the duplication and distribution of software written by Net-AV for the specific use within the systems installed by Net-AV.
+
+Enhanced: Software Licensing: In cases where applicable, Net-AV will grant access to source code designed exclusively for the functionality of the control systems. This access will be governed by a licensing agreement that restricts the reproduction and dissemination of software developed by Net-AV, solely for the intended use within systems installed by Net-AV.
+
+================================================================================
+--- Response at 00:16:34 (took 1.06s) ---
+Original: 
+All conduits, high voltage wiring panels, breakers, relays, boxes, receptacles, etc. Any related electrical work, including but not limited to 110VAC, conduit, core drilling, raceway and boxes.
+
+
+Enhanced: Attention to all electrical components such as conduits, high voltage wiring panels, breakers, relays, receptacles, and related electrical tasks including 110VAC installations, conduit work, core drilling, raceway installations, and electrical boxes are essential for this project.
+
+================================================================================
+--- Response at 00:16:35 (took 0.88s) ---
+Original: All conduits, high voltage wiring panels, breakers, relays, boxes, receptacles, etc. Any related electrical work, including but not limited to 110VAC, conduit, core drilling, raceway and boxes.
+
+Enhanced: All electrical components such as conduits, high voltage wiring panels, breakers, relays, and receptacles must be inspected. This includes a thorough check of all related electrical work, covering 110VAC installations, conduit systems, core drilling, raceway installations, and junction boxes.
+
+================================================================================
+--- Response at 00:16:36 (took 0.65s) ---
+Original: 
+Voice/data cabling, POTS/ analog phone lines, ISDN lines, network ports, etc.
+
+
+Enhanced: Structured cabling services encompass voice and data cabling, POTS/analog phone lines, ISDN lines, network ports, and more.
+
+================================================================================
+--- Response at 00:16:36 (took 0.68s) ---
+Original: Voice/data cabling, POTS/ analog phone lines, ISDN lines, network ports, etc.
+
+Enhanced: Structured cabling services encompass voice and data cabling, POTS/analog phone lines, ISDN lines, network ports, and other related connections.
+
+================================================================================
+--- Response at 00:16:37 (took 0.62s) ---
+Original: 
+Network connectivity, routing, switching and port configuration necessary to support audio-visual equipment.
+
+
+Enhanced: Proficient management of network connectivity, routing, switching, and port configuration is essential to effectively accommodate audio-visual equipment.
+
+================================================================================
+--- Response at 00:16:38 (took 0.59s) ---
+Original: Network connectivity, routing, switching and port configuration necessary to support audio-visual equipment.
+
+Enhanced: Proper network connectivity, routing, switching, and port configuration are essential to facilitate the operation of audio-visual equipment.
+
+================================================================================
+--- Response at 00:16:38 (took 0.48s) ---
+Original: 
+Concrete saw cutting and/or core drilling.
+
+
+Enhanced: Precision concrete cutting and/or core drilling services available.
+
+================================================================================
+--- Response at 00:16:39 (took 0.55s) ---
+Original: Concrete saw cutting and/or core drilling.
+
+Enhanced: Professionalized version: Professional Concrete Saw Cutting and Core Drilling Services.
+
+================================================================================
+--- Response at 00:16:39 (took 0.62s) ---
+Original: 
+Fire wall, ceiling, roof and floor penetration, patching, removal or fire stopping.
+
+
+Enhanced: Firewall, ceiling, roof, and floor penetrations including patching, removal, and fire stopping services.
+
+================================================================================
+--- Response at 00:16:40 (took 0.87s) ---
+Original: Fire wall, ceiling, roof and floor penetration, patching, removal or fire stopping.
+
+Enhanced: Firewall, ceiling, roof, and floor penetration are essential components that require patching, removal, or fire stopping to maintain safety standards and prevent the spread of fire hazards.
+
+================================================================================
+--- Response at 00:16:41 (took 1.04s) ---
+Original: 
+Necessary ceiling tile or T-bar modifications, replacement and/or repair.
+
+
+Enhanced: Required modifications, replacement, or repairs to ceiling tiles or T-bars.
+
+================================================================================
+--- Response at 00:16:42 (took 0.56s) ---
+Original: Necessary ceiling tile or T-bar modifications, replacement and/or repair.
+
+Enhanced: Required adjustments, replacements, or repairs for ceiling tiles or T-bars.
+
+================================================================================
+--- Response at 00:16:43 (took 0.88s) ---
+Original: 
+Any and all millwork (moldings, trim, etc.) and/or furniture. All millwork and/or furniture or modifications to project millwork to accommodate the AV equipment is to be provided by others unless otherwise noted in this proposal.
+
+
+Enhanced: All millwork, which includes moldings, trim, and furniture, as well as any necessary modifications to accommodate AV equipment for the project, are to be supplied by external sources unless specified otherwise in this proposal.
+
+================================================================================
+--- Response at 00:16:44 (took 1.01s) ---
+Original: Any and all millwork (moldings, trim, etc.) and/or furniture. All millwork and/or furniture or modifications to project millwork to accommodate the AV equipment is to be provided by others unless otherwise noted in this proposal.
+
+Enhanced: All millwork, including moldings, trim, and furniture, as well as any necessary modifications to accommodate AV equipment, must be supplied by external sources unless stated otherwise in this proposal.
+
+================================================================================
+--- Response at 00:16:44 (took 0.61s) ---
+Original: 
+Painting, patching or finishing of architectural surfaces.
+
+
+Enhanced: Refining architectural surfaces through painting, patching, or finishing techniques.
+
+================================================================================
+--- Response at 00:16:45 (took 0.83s) ---
+Original: Painting, patching or finishing of architectural surfaces.
+
+Enhanced: Refining architectural surfaces through painting, patching, or finishing.
+
+================================================================================
+--- Response at 00:16:46 (took 0.77s) ---
+Original: 
+Government/Owner furnished equipment (G/OFE) or equipment by others Installation of devices, systems, hardware, software as outlined in the statement of work.
+
+
+Enhanced: Government or owner-furnished equipment (G/OFE) or third-party equipment installation of devices, systems, hardware, and software as specified in the statement of work. 
+
+I hope this meets your expectations for professionalism and engagement.
+
+================================================================================
+--- Response at 00:16:47 (took 0.72s) ---
+Original: Government/Owner furnished equipment (G/OFE) or equipment by others Installation of devices, systems, hardware, software as outlined in the statement of work.
+
+Enhanced: Installation of Government/Owner Furnished Equipment (G/OFE) or Equipment Provided by Others includes setting up devices, systems, hardware, and software as specified in the Statement of Work.
+
+================================================================================
+--- Response at 00:16:47 (took 0.48s) ---
+Original: 
+Permits (unless specifically provided for elsewhere in the contract).
+
+
+Enhanced: Permits, unless expressly stated otherwise in the contract.
+
+================================================================================
+--- Response at 00:16:47 (took 0.41s) ---
+Original: Permits (unless specifically provided for elsewhere in the contract).
+
+Enhanced: Permits are required, unless explicitly addressed elsewhere in the contract.
+
+================================================================================
+--- Response at 00:16:48 (took 0.76s) ---
+Original: 
+Rough-in, bracing, framing, or finish trim carpentry for installation. Structural support unless otherwise specified
+
+
+Enhanced: Preliminary work such as rough-in, bracing, framing, and finish trim carpentry will be conducted during the installation process. Structural support will be provided unless stated otherwise.
+
+================================================================================
+--- Response at 00:16:49 (took 0.68s) ---
+Original: Rough-in, bracing, framing, or finish trim carpentry for installation. Structural support unless otherwise specified
+
+Enhanced: Preliminary carpentry work includes rough-in, bracing, framing, and finish trim installations. Unless specified otherwise, ensure structural support is incorporated.
+
+================================================================================
+--- Response at 00:16:49 (took 0.54s) ---
+Original: 
+Cutting, structural welding, or reinforcement of structural steel members required for support of assemblies, as required.
+
+
+Enhanced: Fabrication and welding, as well as the reinforcement of structural steel members, are necessary to ensure the proper support of assemblies.
+
+================================================================================
+--- Response at 00:16:50 (took 0.92s) ---
+Original: Cutting, structural welding, or reinforcement of structural steel members required for support of assemblies, as required.
+
+Enhanced: Fabrication, welding, or reinforcement of structural steel members is necessary to provide support for assemblies as needed.
+
+================================================================================
+--- Response at 00:16:51 (took 0.56s) ---
+Original: 
+Any applicable taxes, permits or bonds related to the project.
+
+
+Enhanced: All relevant taxes, permits, or bonds pertaining to the project are to be duly accounted for.
+
+================================================================================
+--- Response at 00:16:51 (took 0.56s) ---
+Original: Any applicable taxes, permits or bonds related to the project.
+
+Enhanced: Any taxes, permits, or bonds relevant to the project are to be duly considered and addressed.
+
+================================================================================
+--- Response at 00:16:53 (took 1.44s) ---
+Original: 
+Government/Owner furnished equipment (G/OFE) or equipment by others that is integrated into the systems (as described above) is assumed to be current industry acceptable equipment in good working order. If it is determined that this equipment is faulty upon installation or adversely affects the system additional charges may be incurred.
+
+
+Enhanced: Government/Owner Furnished Equipment (G/OFE) or equipment provided by others and integrated into the systems, as outlined above, is expected to meet current industry standards and be in good working condition. Any faulty equipment identified during installation or that negatively impacts the system may result in additional charges.
+
+================================================================================
+--- Response at 00:16:54 (took 0.93s) ---
+Original: Government/Owner furnished equipment (G/OFE) or equipment by others that is integrated into the systems (as described above) is assumed to be current industry acceptable equipment in good working order. If it is determined that this equipment is faulty upon installation or adversely affects the system additional charges may be incurred.
+
+Enhanced: Government/Owner furnished equipment (G/OFE) or externally provided equipment integrated into the systems are expected to meet current industry standards and be in optimal working condition as outlined above. In the event that such equipment is found to be defective upon installation or causes disruptions to the system's functionality, supplementary charges may apply.
+
+================================================================================
+--- Response at 00:16:54 (took 0.66s) ---
+Original: In consideration of the Statement of Work set forth above in this Proposal and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto execute an Agreement by duly authorized personnel of the parties on the dates below written.
+
+Enhanced: With reference to the Statement of Work outlined in this Proposal and for valuable consideration received, duly authorized representatives of the parties hereby execute this Agreement on the dates indicated below.
+
+================================================================================
+--- Response at 00:16:55 (took 0.70s) ---
+Original: Thank you for considering Net-AV for your audiovisual integration needs. We look forward to working with you on this exciting project for the Baltimore Symphony Orchestra.
+
+Enhanced: We appreciate your interest in Net-AV for your audiovisual integration requirements. We are excited about the opportunity to collaborate with you on the upcoming project for the Baltimore Symphony Orchestra.
+
+================================================================================
+--- Response at 00:16:56 (took 1.00s) ---
+Original: Net-AV - Presentation | Collaboration | Communication
+698C Corporate Center Ct, Westminster, MD 21157
+410.374.8680 | 800.717.5215 | sales@net-av.com
+
+Enhanced: Net-AV is your premier destination for cutting-edge solutions in presentation, collaboration, and communication. Reach us at 698C Corporate Center Ct, Westminster, MD 21157 or contact us at 410.374.8680 or 800.717.5215. For inquiries, kindly email sales@net-av.com.
+
+================================================================================
