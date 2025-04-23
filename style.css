@@ -1,9 +1,10 @@
 body {
     font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
     background: #f5f7fa;
-    color: #222;
+    color: #333;
     margin: 0;
     padding: 0 0 40px 0;
+    line-height: 1.6;
 }
 .container {
     max-width: 800px;
@@ -12,11 +13,27 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 16px rgba(0,0,0,0.07);
     padding: 32px 40px;
+    border-top: 5px solid #3366cc;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #2c3e50;
+    color: #1a5dc8;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.2em;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
 }
 p, ul, ol, pre, blockquote {
     margin-bottom: 1em;
@@ -50,14 +67,50 @@ ul, ol {
 }
 table {
     border-collapse: collapse;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
 }
+
 td, th {
     border: 1px solid #e1e4e8;
-    padding: 8px 12px;
+    padding: 12px 15px;
+    text-align: left;
 }
+
 th {
-    background: #f5f7fa;
+    background: #3366cc;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafc;
+}
+
+tr:hover {
+    background-color: #f0f4f8;
+}
+
+td:last-child, th:last-child {
+    text-align: left;
+}
+
+/* Price columns styling */
+td:nth-child(5), td:nth-child(6), 
+th:nth-child(5), th:nth-child(6) {
+    text-align: left;
+}
+
+/* Subtotal row styling */
+tr:last-child {
+    font-weight: bold;
+    border-top: 2px solid #3366cc;
 }
 hr {
     border: none;
