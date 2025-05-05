@@ -47,11 +47,14 @@ def check_api_keys():
     # Try to load from .env file first
     try:
         from dotenv import load_dotenv
+        # Construct path to .env file in the project root
+        dotenv_path = Path(__file__).parent / '.env' 
         # Force reload to ensure we get the latest values
-        load_dotenv(override=True)
-        print("Loaded API keys from .env file")
+        load_dotenv(dotenv_path=dotenv_path, override=True)
     except ImportError:
         print("Warning: python-dotenv not installed. Using environment variables only.")
+    except Exception as e:
+        print(f"Error loading .env file: {e}")
     
     # Get API keys from environment variables (which now include any from .env)
     openai_key = os.environ.get('OPENAI_API_KEY')
@@ -144,8 +147,12 @@ def main():
         cmd.append(args.input)
     
     # Add output file if specified
+    # Check the script type to pass output correctly
     if args.output:
-        cmd.append(args.output)
+        if "md_to_html_claude.py" in script or "md_to_docx_claude.py" in script: 
+            cmd.extend(["--output", args.output])
+        else: 
+            cmd.append(args.output)
     
     # Add no-ai flag if specified
     if args.no_ai:

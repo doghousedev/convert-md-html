@@ -1,0 +1,13 @@
+# Claude API Setup Instructions
+
+1. Create or edit the .env file in the project root directory with the following content:
+
+ANTHROPIC_API_KEY=your_api_key_here
+
+2. Replace 'your_api_key_here' with your actual Anthropic API key
+
+3. Save the file and run the converter again with:
+
+python convert.py --format html --model claude --input markdown/p691.md
+
+Note: The .env file is excluded from git version control for security reasons, so your API key will remain private.

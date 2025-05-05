@@ -18,6 +18,9 @@ ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY')
 if not ANTHROPIC_API_KEY:
     print("Warning: No Claude API key found. Please set the ANTHROPIC_API_KEY in your .env file.")
     print("Example .env file content:\nANTHROPIC_API_KEY=sk-ant-api03-your-key-here")
+    sys.exit(1)
+else:
+    print(f"Using Claude API key: {ANTHROPIC_API_KEY[:5]}...{ANTHROPIC_API_KEY[-5:]}")
 
 client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
@@ -73,10 +76,14 @@ def process_content_with_claude(text):
             # Extract the response content
             response_content = message.content[0].text
             
+            # Print a preview of the AI response
+            preview = response_content.strip()[:100] + "..." if len(response_content.strip()) > 100 else response_content.strip()
             if is_table:
+                print(f"\nClaude AI response (table formatting): \n{preview}\n")
                 # For tables, we want to preserve the markdown structure
                 results[match.span()] = '\n' + response_content.strip() + '\n'
             else:
+                print(f"\nClaude AI response (bullet point conversion): \n{preview}\n")
                 # For bullet points, we want to convert to paragraphs
                 results[match.span()] = '\n' + response_content.strip() + '\n'
                 
@@ -94,59 +101,41 @@ def process_content_with_claude(text):
     return result_text
 
 
-# Usage: python md_to_html_claude.py [document_order.json]
-# If document_order.json is not specified, default to all .md files in the current directory
-
-def get_files_from_order(order_file):
-    with open(order_file, 'r') as f:
-        order_data = json.load(f)
-    # Extract filenames from the order data
-    return [item['filename'] for item in sorted(order_data, key=lambda x: x['order'])]
-
-def get_markdown_files():
-    if len(sys.argv) > 1 and sys.argv[1].endswith('.md'):
-        print(f"Using files from command line: {sys.argv[1:]}")
-        return sys.argv[1:]
-    else:
-        if not os.path.exists('markdown'):
-            print("ERROR: 'markdown' directory not found! Please create a 'markdown' directory and add markdown files.")
-            return []
-        md_files = [f for f in os.listdir('markdown') if f.endswith('.md')]
-        print(f"Markdown files found in 'markdown': {md_files}")
-        return md_files
-
 def convert_and_merge(md_files, output_file=None, md_dir='markdown', output_dir='output', use_claude=True):
     merged_sections = []
-    # Ensure default output directory exists if needed later
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
     
-    # Determine the final output path
-    if output_file:
-        # Use the provided output_file path directly (assume relative to CWD)
-        output_path = Path(output_file)
-    elif md_files:
-        # Default naming logic if no output file specified
-        base_filename = Path(md_files[0]).stem
-        output_filename = f"{base_filename}_Claude_Output.html" # Use a distinct default name
-        output_path = Path(output_dir) / output_filename
+    # If no output file is specified, use the first markdown filename as the base
+    if output_file is None and md_files:
+        base_filename = os.path.splitext(os.path.basename(md_files[0]))[0]
+        output_file = f"{base_filename}_Claude_HTML.html"
     else:
-        print("No markdown files provided and no output file specified! Exiting.")
-        return
-
-    # Ensure the parent directory for the final output path exists
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_file = 'merged_output.html'
         
+    output_path = os.path.join(output_dir, output_file)
     if not md_files:
         print("No markdown files provided to merge! Exiting.")
         return
     
     for md_file in md_files:
-        md_path = os.path.join(md_dir, md_file)
+        # Handle absolute paths and relative paths correctly
+        if os.path.isabs(md_file):
+            md_path = md_file
+        else:
+            # Check if the file exists directly in the specified directory
+            direct_path = os.path.join(md_dir, md_file)
+            if os.path.exists(direct_path):
+                md_path = direct_path
+            else:
+                # Try with just the filename (in case path already includes directory)
+                md_path = os.path.join(md_dir, os.path.basename(md_file))
+        
         if not os.path.exists(md_path):
             print(f"Warning: {md_path} not found, skipping.")
             continue
         
-        print(f"Merging: {md_path}")
+        print(f"Processing: {md_path}")
         with open(md_path, 'r', encoding='utf-8') as f:
             text = f.read()
         
@@ -155,7 +144,7 @@ def convert_and_merge(md_files, output_file=None, md_dir='markdown', output_dir=
         # This pattern looks for cells with only dashes and replaces them with empty cells
         # First, handle cells that are just dashes
         text = re.sub(r'\|\s*-+\s*\|', '| |', text)
-        # Then handle cells with a pattern like |---------|
+        # Then handle cells with a pattern like |---------|  
         text = re.sub(r'\|(\s*-+\s*)(?=\|)', '| ', text)
         # Finally handle cells with a pattern like |---------|  
         text = re.sub(r'(?<=\|)(\s*-+\s*)\|', ' |', text)
@@ -174,7 +163,9 @@ def convert_and_merge(md_files, output_file=None, md_dir='markdown', output_dir=
         # Process content (bullets and tables) using Claude (if enabled)
         if use_claude:
             try:
+                print("Enhancing content with Claude AI...")
                 text = process_content_with_claude(text)
+                print("Claude AI enhancement complete!")
             except Exception as e:
                 print(f"Error using Claude API: {e}")
                 print("Continuing without Claude processing...")
@@ -208,63 +199,71 @@ if __name__ == '__main__':
     # Parse command line arguments
     import argparse
     parser = argparse.ArgumentParser(description='Convert markdown files to HTML using Claude AI')
-    parser.add_argument('input_path', nargs='?', type=str, default=None,
-                        help='Optional: Path to a single .md file or a .json order file.')
-    parser.add_argument('--no-claude', action='store_true',
-                        help='Disable Claude API processing.')
-    parser.add_argument('--output', '-o', type=str, default=None,
-                        help='Specify the output HTML file name.')
-
+    parser.add_argument('input_file', nargs='?', help='Input markdown file or document_order.json')
+    parser.add_argument('--no-claude', action='store_true', help='Disable Claude API calls')
+    parser.add_argument('--output', help='Output HTML file name')
     args = parser.parse_args()
-
+    
     # Determine whether to use Claude
     use_claude = not args.no_claude
+    
+    # Check for NO_AI environment variable
+    if os.environ.get('NO_AI'):
+        use_claude = False
+        print("Claude AI disabled by NO_AI environment variable.")
+    
     if not use_claude:
-        print("Claude processing disabled.")
+        print("Claude API calls disabled. Running without processing.")
     
-    md_files = []
-    md_dir = 'markdown' # Default input directory
-    
-    # Determine input files based on input_path argument
-    if args.input_path:
-        input_path = Path(args.input_path)
-        if input_path.is_file():
-            if input_path.suffix == '.json':
-                print(f"Processing order file: {input_path}")
-                try:
-                    with open(input_path, 'r') as f:
-                        order_data = json.load(f)
-                    md_files = [item['filename'] for item in sorted(order_data, key=lambda x: x['order'])]
-                    # Assume files in JSON are relative to the default md_dir
-                except Exception as e:
-                    print(f"Error reading JSON order file {input_path}: {e}")
-                    sys.exit(1)
-            elif input_path.suffix == '.md':
-                print(f"Processing single file: {input_path}")
-                # Store the full path or relative path as needed by convert_and_merge
-                # convert_and_merge expects filenames relative to md_dir
-                md_files = [input_path.name] # Pass only the filename
-                md_dir = str(input_path.parent) # Set the directory
-            else:
-                print(f"Error: Input file {input_path} is not a .md or .json file.")
+    # Handle input file
+    if args.input_file:
+        if args.input_file.endswith('.json'):
+            # It's a document order file
+            try:
+                with open(args.input_file, 'r') as f:
+                    order_data = json.load(f)
+                
+                # Extract filenames from the order data
+                md_files = [item['filename'] for item in sorted(order_data, key=lambda x: x['order'])]
+                
+                convert_and_merge(md_files, output_file=args.output, use_claude=use_claude)
+                print("Conversion completed successfully!")
+            except Exception as e:
+                print(f"Error processing JSON file: {e}")
+                sys.exit(1)
+        elif args.input_file.endswith('.md'):
+            # It's a markdown file
+            convert_and_merge([args.input_file], output_file=args.output, use_claude=use_claude)
+            print("Conversion completed successfully!")
+        else:
+            print(f"Unsupported file type: {args.input_file}")
+            sys.exit(1)
+    else:
+        # No input file specified, use document_order.json if it exists
+        if os.path.exists('document_order.json'):
+            try:
+                with open('document_order.json', 'r') as f:
+                    order_data = json.load(f)
+                
+                # Extract filenames from the order data
+                md_files = [item['filename'] for item in sorted(order_data, key=lambda x: x['order'])]
+                
+                convert_and_merge(md_files, output_file=args.output, use_claude=use_claude)
+                print("Conversion completed successfully!")
+            except Exception as e:
+                print(f"Error: {e}")
                 sys.exit(1)
         else:
-            print(f"Error: Input path {input_path} is not a valid file.")
-            sys.exit(1)
-    else:
-        # No input path provided, default to all .md files in md_dir
-        print(f"No input path specified. Processing all .md files in '{md_dir}' directory.")
-        if not Path(md_dir).is_dir():
-            print(f"Error: Default markdown directory '{md_dir}' not found.")
-            sys.exit(1)
-        md_files = [f.name for f in Path(md_dir).glob('*.md')]
-
-    # Determine output filename
-    output_filename = args.output # Use the argument if provided
-    
-    # Start conversion
-    if md_files:
-        # Pass the determined md_dir to the function
-        convert_and_merge(md_files, output_file=output_filename, md_dir=md_dir, use_claude=use_claude)
-    else:
-        print("No markdown files found to process.")
+            # Process all markdown files in the directory
+            md_dir = 'markdown'
+            if not os.path.exists(md_dir):
+                print(f"Error: '{md_dir}' directory not found!")
+                sys.exit(1)
+            
+            md_files = [f for f in os.listdir(md_dir) if f.endswith('.md')]
+            if not md_files:
+                print("No markdown files found.")
+                sys.exit(1)
+            
+            convert_and_merge(md_files, output_file=args.output, use_claude=use_claude)
+            print("Conversion completed successfully!")

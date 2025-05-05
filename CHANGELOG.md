@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2025-05-05
+
+### Added
+- Added new Claude API integration fixed version
+- New markdown templates for various document types
+
+### Improved
+- Enhanced HTML conversion with better formatting
+- Updated document templates for more consistent output
+- Refined JSON configuration for better document ordering
+
+### Fixed
+- Fixed issues with Claude API integration
+- Removed redundant template file
+
 ## [1.1.1] - 2025-04-23
 
 ### Added

@@ -262,7 +262,7 @@ def convert_md_to_html(input_file, output_file=None, document_order_file=None, e
                         try:
                             # Try the dictionary access method first (most common)
                             enhanced_text = response.choices[0].message['content'].strip()
-                            print(f"Enhanced: {enhanced_text[:50]}...")
+                            print(f"\n=== OpenAI Response ===\nOriginal: {original_text[:100]}...\nEnhanced: {enhanced_text[:100]}...\n====================\n")
                             print(f"AI enhancement took {elapsed:.2f} seconds")
                             
                             # Log the AI response to a file if logging is enabled
@@ -283,7 +283,7 @@ def convert_md_to_html(input_file, output_file=None, document_order_file=None, e
                             # Fall back to direct attribute access if needed
                             try:
                                 enhanced_text = response.choices[0].message.content.strip()
-                                print(f"Enhanced: {enhanced_text[:50]}...")
+                                print(f"\n=== OpenAI Response ===\nOriginal: {original_text[:100]}...\nEnhanced: {enhanced_text[:100]}...\n====================\n")
                                 print(f"AI enhancement took {elapsed:.2f} seconds")
                                 
                                 # Log the AI response to a file if logging is enabled
@@ -410,7 +410,14 @@ if __name__ == '__main__':
             
             for i, doc in enumerate(document_order, 1):
                 # Get the markdown file path
-                md_path = os.path.join('markdown', doc)
+                if isinstance(doc, dict) and 'filename' in doc:
+                    # Handle the case where doc is a dictionary with a filename field
+                    md_file = doc['filename']
+                else:
+                    # Handle the case where doc is a string (for backward compatibility)
+                    md_file = doc
+                
+                md_path = os.path.join('markdown', md_file)
                 if not os.path.exists(md_path):
                     print(f"Warning: File {md_path} not found, skipping")
                     continue
